@@ -1,2 +1,2 @@
 # Pocket Manual
-YOLO PR
+Atualização de teste para fluxo limpo
