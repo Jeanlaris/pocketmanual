@@ -1,0 +1,53 @@
+# ======================================================
+# Alantec - Architects of the Future | Calibrated Mind
+# Standard Core Ecosystem .gitignore
+# ======================================================
+
+# --- Python & FastAPI Runtime Caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# --- Environments & Sensitive Credentials ---
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+env/
+env3.*/
+Pipfile.lock
+poetry.lock
+
+# --- Local Databases & Logs ---
+*.db
+*.sqlite3
+*.log
+log.txt
+
+# --- Build Outputs, Workflows & Automation Temp Files ---
+*.tmp
+*.temp
+.build/
+dist/
+site/
+site_build/
+docs_build/
+archive.zip
+
+# --- IDEs, Mobile Edge Runtime (Termux / VS Code / OS) ---
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
